@@ -11,6 +11,7 @@
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 10;
 }
 .search-container input{
     border: none;
@@ -49,6 +50,20 @@
 
     }
 } 
+
+
+
+
+
+@media (max-width:920px) {
+    .search-container{ 
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
+    width: 90%;
+    margin: 20px;
+    }
+}
 
 
 /* For Small Mobile */

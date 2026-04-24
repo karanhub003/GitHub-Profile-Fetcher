@@ -2,13 +2,15 @@
 .userName{
     font-size:2rem;
     font-family: 'Be Vietnam Pro';
-    margin: 10px 0px;
+    margin-top: 30px;
     margin-left: 4px;
+    color: #CDD5E0;
    
 }
 .userTag{
    font-size: 1rem;
    margin-left: 4px;
+   color: #97A3B6;
 
 }
 
@@ -37,4 +39,14 @@
     align-items: center;
     gap: 10px;
     
+}
+
+
+@media (max-width:440px) {
+  .repo-flex{
+    margin-top: 20px;
+  }
+  .userName{
+    margin-top: 20px;
+  }
 }

@@ -9,8 +9,8 @@ export default function SearchUserBox({userData,onClick}) {
             <img src={userData.avatar_url} alt="" />
             </div>
             <div className="userInfo">
-                <h3 className='userName'>{userData.login}</h3>
-                <p className='userTag'>{userData.bio}</p>
+                <h3 className='dataName'>{userData.login}</h3>
+                <p className='dataTag'>{userData.bio}</p>
             </div>
         </div>
     </div>
