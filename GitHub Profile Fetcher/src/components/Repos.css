@@ -1,0 +1,40 @@
+
+.userName{
+    font-size:2rem;
+    font-family: 'Be Vietnam Pro';
+    margin: 10px 0px;
+    margin-left: 4px;
+   
+}
+.userTag{
+   font-size: 1rem;
+   margin-left: 4px;
+
+}
+
+.repo-flex{
+  margin-top: 50px;
+   display:flex;
+   flex-wrap: wrap;
+   gap: 40px;
+}
+.repo-card{
+  
+  width: 560px;
+  border-radius: 12px;
+  padding: 20px;
+  background: linear-gradient(95deg, #111729 3%, #1d1b48 99.61%);
+  color: #97A3B6;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.repoHead{
+  color: #CDD5E0;
+}
+.repo-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
